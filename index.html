@@ -1,155 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css " />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
     <title>My Portfolio | Alif Ikrar Prabu</title>
   </head>
+
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #22d422">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#">Alif Ikrar Prabu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand fw-bold" href="#home">Alif Ikrar Prabu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#topskills">Top Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+  <li class="nav-item">
+    <a class="nav-link" href="#about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#topskills">Skills</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#experience">Experience</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
+
+  <!-- Download CV Button -->
+  <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+    <a
+      href="cv/CV_Alif_Ikrar_Prabu.pdf"
+      class="btn btn-light btn-sm fw-bold"
+      download
+    >
+      📄 Download CV
+    </a>
+  </li>
+</ul>
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/Poto Github.jpg" alt="Alif Ikrar Prabu" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Alif Ikrar Prabu</h1>
-      <p class="lead">Programmer | Swimm Coach</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L360,256L720,64L1080,224L1440,128L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir Jumbotron -->
+  <img
+    src="img/Poto Github.jpg"
+    alt="Alif Ikrar Prabu"
+    width="180"
+    class="rounded-circle img-thumbnail mb-3"
+  />
+  <h1 class="display-5 fw-bold">Alif Ikrar Prabu</h1>
+  <p class="lead">Web Developer | Swimming Coach</p>
+
+  <!-- Download CV Button -->
+  <a
+    href="cv/CV_Alif_Ikrar_Prabu.pdf"
+    class="btn btn-light btn-lg mt-3 fw-bold"
+    download
+  >
+    📄 Download CV
+  </a>
+</section>
+
 
     <!-- About -->
     <section id="about">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col">
-            <p>
-              Hallo, Saya Alif Ikrar Prabu, lahir pada 29 Maret 2005, saya lulusan SMKN 1 Cikampek jurusan Teknik Instalasi Tenaga Listrik dan saya sekarang kuliah di Universitas Buana Perjuangan Prodi Teknik Informatika. Hobi saya Naik
-              Gunung karena naik gunung adalah sebuah ilustrasi kehidupan yang artinya jika ingin mencapai puncak/tujuan harus dengan perjuangan yang tidak mudah. Selain naik gunung saya juga hobi olahraga renang dan saya juga seorang
-              pelatih renang Lisensi D Kabupaten & Daerah.
-            </p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2 class="section-title">About Me</h2>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#18cf7a" fill-opacity="1" d="M0,192L360,0L720,288L1080,224L1440,192L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir About -->
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <p class="fs-5">
+          Saya <strong>Alif Ikrar Prabu</strong>, berdomisili di Karawang, Jawa Barat,
+          dengan latar belakang pendidikan teknik dan minat besar di bidang
+          <strong>teknologi informasi</strong> serta <strong>olahraga</strong>.
+          Saya merupakan lulusan <strong>SMKN 1 Cikampek</strong> jurusan
+          <strong>Teknik Instalasi Tenaga Listrik</strong>.
+        </p>
+        <p class="fs-5">
+          Saya memiliki pemahaman dasar <strong>pemrograman PHP menggunakan framework Laravel</strong>,
+          serta terbiasa mengoperasikan <strong>Microsoft Word, Excel, dan PowerPoint</strong>.
+          Selain bidang teknologi, saya aktif sebagai
+          <strong>pelatih renang berlisensi D</strong> dan terbiasa melakukan
+          <strong>public speaking</strong> dalam kegiatan organisasi dan kepelatihan.
+        </p>
+        <p class="fs-5">
+          Hobi mendaki gunung membentuk saya menjadi pribadi yang terencana,
+          disiplin, dan pantang menyerah dalam mencapai tujuan.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Top Skills -->
     <section id="topskills">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>Top Skills</h2>
-            <img src="img/html.png" alt="Deskripsi gambar" width="100" height="90">
-            <img src="img/png-transparent-css-logo-thumbnail.png" alt="Deskripsi gambar" width="100" height="90">
-            <img src="img/Visual_Studio_Code_1.35_icon.svg.png" alt="Deskripsi gambar" width="100" height="90">
-          </div>
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col">
+        <h2 class="section-title text-white">Top Skills</h2>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-3 mb-4">
+        <div class="skill-card">
+          <h5>Public Speaking</h5>
+          <p>Terbiasa berbicara di depan umum dan memimpin kegiatan</p>
         </div>
       </div>
-      <div class="col-md-4 mb-4">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fff" fill-opacity="1" d="M0,224L180,256L360,128L540,224L720,224L900,96L1080,192L1260,256L1440,32L1440,320L1260,320L1080,320L900,320L720,320L540,320L360,320L180,320L0,320Z"></path>
-      </svg>
-    </section>
-    <!-- Akhir Top Skills -->
+
+      <div class="col-md-3 mb-4">
+        <div class="skill-card">
+          <h5>PHP & Laravel</h5>
+          <p>Memahami dasar pemrograman PHP dengan framework Laravel</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="skill-card">
+          <h5>Microsoft Office</h5>
+          <p>Word, Excel, dan PowerPoint</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="skill-card">
+          <h5>Swimming Coach</h5>
+          <p>Pelatih renang berlisensi D tingkat Kabupaten & Daerah</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     <!-- Experience -->
     <section id="experience">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>Experience</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col">
-            <p>- Praktek kerja lapangan di PT. KIA sebagai Maintenance (2020-2021)
-            </p>
-            <p>- Atlet polo air tim Karawang (2022-Sekarang)</p>
-            <p>- Atlet renang CSC (2020-2022)</p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2 class="section-title">Experience</h2>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#18cf7a" fill-opacity="1" d="M0,192L360,0L720,288L1080,224L1440,192L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir Experience -->
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <ul class="list-group list-group-flush fs-5">
+          <li class="list-group-item">
+            ⚙️ <strong>Maintenance – PT KIA</strong> (Desember 2021 – Februari 2022)
+            <br />
+            <small>
+              Melakukan perawatan dan perbaikan mesin kelistrikan serta
+              mengoperasikan motor listrik 3 phase.
+            </small>
+          </li>
+
+          <li class="list-group-item">
+            🏊 <strong>Swimming Coach – Cikampek Swimming Club</strong>
+            (Januari 2022 – Sekarang)
+            <br />
+            <small>
+              Melatih teknik dasar hingga lanjutan dan membina atlet renang.
+            </small>
+          </li>
+
+          <li class="list-group-item">
+            🤽 <strong>Anggota Atlet Polo Air Karawang</strong>
+            (Februari 2022 – November 2024)
+          </li>
+
+          <li class="list-group-item">
+            🎤 <strong>Ketua Pelaksana Seminar Mental Health</strong>
+            <br />
+            <small>
+              Penyelenggara seminar oleh Cikampek Swimming Club (Maret 2025).
+            </small>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-4">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 class="section-title text-white">Contact Me</h2>
           </div>
         </div>
+
         <div class="row justify-content-center">
           <div class="col-md-6">
             <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <input type="text" class="form-control mb-3" placeholder="Nama Lengkap" />
+              <input type="email" class="form-control mb-3" placeholder="Email" />
+              <textarea class="form-control mb-3" rows="3" placeholder="Pesan"></textarea>
+              <button class="btn btn-light w-100">Kirim</button>
             </form>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#18cf7a" fill-opacity="1" d="M0,96L288,256L576,128L864,64L1152,256L1440,32L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
     </section>
-    <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-success text-white text-center pb-5">
-      <p>Created by <a href="https://instagram.com/alif_2903?igshid=OGQ5ZDc2ODk2ZA==" class="text-white fw-bold">Alif Ikrar Prabu</a></p>
+    <footer class="text-center text-white py-4">
+      <p class="mb-0">
+        © 2025 | Created by
+        <a
+          href="https://instagram.com/alif_2903"
+          class="text-white fw-bold"
+          >Alif Ikrar Prabu</a
+        >
+      </p>
     </footer>
-    <!-- akhir Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
