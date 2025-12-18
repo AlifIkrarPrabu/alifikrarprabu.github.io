@@ -1,12 +1,72 @@
-.jumbotron {
-  padding-top: 6rem;
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar {
   background-color: #18cf7a;
+}
+
+.navbar .btn {
+  border-radius: 20px;
+  padding: 6px 18px;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #ffffff;
+  color: #18cf7a;
+  transform: translateY(-2px);
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: #18cf7a;
+  color: white;
+}
+
+.jumbotron .btn {
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: all 0.3s ease;
+}
+
+.jumbotron .btn:hover {
+  background-color: #ffffff;
+  color: #18cf7a;
+  transform: scale(1.05);
+}
+
+
+section {
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-weight: bold;
 }
 
 #topskills {
   background-color: #18cf7a;
+  color: white;
 }
 
-section {
-  padding-top: 5rem;
+.skill-card {
+  background: white;
+  color: #333;
+  padding: 2rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+#contact {
+  background-color: #18cf7a;
+}
+
+footer {
+  background-color: #0fb36a;
 }
