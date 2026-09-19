@@ -1,261 +1,1285 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  <meta name="description" content="Portfolio Alif Ikrar Prabu - IT Operational Support & Web Developer">
+  <meta name="author" content="Alif Ikrar Prabu">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <title>Alif Ikrar Prabu | IT Support & Web Developer</title>
 
-    <title>My Portfolio | Alif Ikrar Prabu</title>
-  </head>
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
 
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">Alif Ikrar Prabu</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-  <li class="nav-item">
-    <a class="nav-link" href="#about">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#topskills">Skills</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#experience">Experience</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#contact">Contact</a>
-  </li>
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
 
-  <!-- Download CV Button -->
-  <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-    <a
-      href="cv/CV_Alif_Ikrar_Prabu.pdf"
-      class="btn btn-light btn-sm fw-bold"
-      download
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+  <div class="container">
+
+    <!-- <a class="navbar-brand fw-bold" href="#home">
+      Alif<span>.</span>
+    </a> -->
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-label="Toggle navigation"
     >
-      📄 Download CV
-    </a>
-  </li>
-</ul>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <a
+            href="cv/CV_Alif_Ikrar_Prabu.pdf"
+            class="btn btn-cv"
+            download
+          >
+            <i class="bi bi-file-earmark-pdf"></i>
+            Download CV
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<header id="home" class="hero">
+
+  <div class="hero-bg"></div>
+
+  <div class="container position-relative">
+
+    <div class="row align-items-center min-vh-100">
+
+      <!-- Hero Text -->
+
+      <div class="col-lg-7 order-2 order-lg-1">
+
+        <div class="hero-content">
+
+          <p class="hero-intro">
+            HELLO, I'M
+          </p>
+
+          <h1>
+            Alif Ikrar<br>
+            <span>Prabu</span>
+          </h1>
+
+          <h2>
+            IT Support &amp; Web Developer
+          </h2>
+
+          <p class="hero-description">
+            Mahasiswa Teknik Informatika dengan pengalaman di bidang
+            IT Operational Support dan Web Development. Berpengalaman
+            mengembangkan sistem berbasis Laravel, melakukan pengujian
+            sistem, serta menangani kebutuhan operasional teknis di lapangan.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#experience" class="btn btn-primary-custom">
+              <i class="bi bi-briefcase"></i>
+              Lihat Pengalaman
+            </a>
+
+            <a href="#contact" class="btn btn-outline-custom">
+              Hubungi Saya
+            </a>
+
+          </div>
+
+          <div class="hero-social">
+
+            <a
+              href="mailto:prabu0397@gmail.com"
+              title="Email"
+            >
+              <i class="bi bi-envelope"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/alif-i-7a11333b7/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a
+              href="https://wa.me/6283804665952"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="WhatsApp"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+
+          </div>
+
         </div>
+
       </div>
-    </nav>
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-  <img
-    src="img/Poto Github.jpg"
-    alt="Alif Ikrar Prabu"
-    width="180"
-    class="rounded-circle img-thumbnail mb-3"
-  />
-  <h1 class="display-5 fw-bold">Alif Ikrar Prabu</h1>
-  <p class="lead">Web Developer | Swimming Coach</p>
 
-  <!-- Download CV Button -->
-  <a
-    href="cv/CV_Alif_Ikrar_Prabu.pdf"
-    class="btn btn-light btn-lg mt-3 fw-bold"
-    download
-  >
-    📄 Download CV
+      <!-- Hero Photo -->
+
+      <div class="col-lg-5 order-1 order-lg-2 text-center">
+
+        <div class="hero-image-wrapper">
+
+          <div class="hero-circle"></div>
+
+          <img
+            src="img/Poto Github.jpg"
+            alt="Alif Ikrar Prabu"
+            class="hero-image"
+          >
+
+          <div class="floating-card card-one">
+            <i class="bi bi-code-slash"></i>
+            <span>Web Developer</span>
+          </div>
+
+          <div class="floating-card card-two">
+            <i class="bi bi-pc-display"></i>
+            <span>IT Support</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <a href="#about" class="scroll-down">
+    <i class="bi bi-chevron-down"></i>
   </a>
-</section>
+
+</header>
 
 
-    <!-- About -->
-    <section id="about">
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section about-section">
+
   <div class="container">
-    <div class="row text-center mb-4">
-      <div class="col">
-        <h2 class="section-title">About Me</h2>
-      </div>
+
+    <div class="section-heading">
+
+      <p class="section-label">
+        ABOUT ME
+      </p>
+
+      <h2>
+        Mengenal Saya Lebih Dekat
+      </h2>
+
+      <div class="heading-line"></div>
+
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-10 text-center">
-        <p class="fs-5">
-          Saya <strong>Alif Ikrar Prabu</strong>, berdomisili di Karawang, Jawa Barat,
-          dengan latar belakang pendidikan teknik dan minat besar di bidang
-          <strong>teknologi informasi</strong> serta <strong>olahraga</strong>.
-          Saya merupakan lulusan <strong>SMKN 1 Cikampek</strong> jurusan
-          <strong>Teknik Instalasi Tenaga Listrik</strong>.
-        </p>
-        <p class="fs-5">
-          Saya memiliki pemahaman dasar <strong>pemrograman PHP menggunakan framework Laravel</strong>,
-          serta terbiasa mengoperasikan <strong>Microsoft Word, Excel, dan PowerPoint</strong>.
-          Selain bidang teknologi, saya aktif sebagai
-          <strong>pelatih renang berlisensi D</strong> dan terbiasa melakukan
-          <strong>public speaking</strong> dalam kegiatan organisasi dan kepelatihan.
-        </p>
-        <p class="fs-5">
-          Hobi mendaki gunung membentuk saya menjadi pribadi yang terencana,
-          disiplin, dan pantang menyerah dalam mencapai tujuan.
-        </p>
+
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-5 mb-5 mb-lg-0">
+
+        <div class="about-card">
+
+          <div class="about-icon">
+            <i class="bi bi-person-workspace"></i>
+          </div>
+
+          <h3>
+            IT Support<br>
+            <span>&amp; Web Developer</span>
+          </h3>
+
+          <p>
+            Fokus pada pengembangan sistem berbasis web,
+            dukungan operasional teknologi informasi,
+            serta penyelesaian kebutuhan teknis di lapangan.
+          </p>
+
+        </div>
+
       </div>
+
+
+      <div class="col-lg-7">
+
+        <div class="about-text">
+
+          <p>
+            Saya <strong>Alif Ikrar Prabu</strong>, berdomisili di
+            Karawang, Jawa Barat. Saya merupakan mahasiswa
+            <strong>Teknik Informatika</strong>
+            dengan pengalaman di bidang
+            <strong>IT Support dan Web Development</strong>.
+          </p>
+
+          <p>
+            Saya terbiasa menguji dan mengembangkan sistem berbasis
+            <strong>Laravel</strong>, menangani dukungan operasional
+            teknis, serta melakukan kunjungan ke perusahaan customer
+            untuk melakukan analisis kebutuhan sistem dan pengiriman
+            dokumen resmi.
+          </p>
+
+          <p>
+            Selain kemampuan teknis, saya memiliki kemampuan
+            <strong>public speaking</strong>, pengolahan data menggunakan
+            <strong>Microsoft Office</strong>, dan manajemen proyek
+            yang terorganisir.
+          </p>
+
+
+          <div class="about-info">
+
+            <div>
+              <i class="bi bi-geo-alt"></i>
+              <span>Karawang, Jawa Barat</span>
+            </div>
+
+            <div>
+              <i class="bi bi-envelope"></i>
+              <span>prabu0397@gmail.com</span>
+            </div>
+
+            <div>
+              <i class="bi bi-telephone"></i>
+              <span>083804665952</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
+
   </div>
+
 </section>
 
 
-    <!-- Top Skills -->
-    <section id="topskills">
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
   <div class="container">
-    <div class="row text-center mb-5">
-      <div class="col">
-        <h2 class="section-title text-white">Top Skills</h2>
+
+    <div class="row g-4 text-center">
+
+      <div class="col-6 col-lg-3">
+
+        <div class="stat-card">
+
+          <i class="bi bi-code-square"></i>
+
+          <h3>Laravel</h3>
+
+          <p>Web Development</p>
+
+        </div>
+
       </div>
+
+
+      <div class="col-6 col-lg-3">
+
+        <div class="stat-card">
+
+          <i class="bi bi-database"></i>
+
+          <h3>MySQL</h3>
+
+          <p>Database</p>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-6 col-lg-3">
+
+        <div class="stat-card">
+
+          <i class="bi bi-shield-check"></i>
+
+          <h3>RBAC</h3>
+
+          <p>System Security</p>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-6 col-lg-3">
+
+        <div class="stat-card">
+
+          <i class="bi bi-tools"></i>
+
+          <h3>IT Support</h3>
+
+          <p>Operational Support</p>
+
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="row text-center">
-      <div class="col-md-3 mb-4">
-        <div class="skill-card">
-          <h5>Public Speaking</h5>
-          <p>Terbiasa berbicara di depan umum dan memimpin kegiatan</p>
-        </div>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <div class="skill-card">
-          <h5>PHP & Laravel</h5>
-          <p>Memahami dasar pemrograman PHP dengan framework Laravel</p>
-        </div>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <div class="skill-card">
-          <h5>Microsoft Office</h5>
-          <p>Word, Excel, dan PowerPoint</p>
-        </div>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <div class="skill-card">
-          <h5>Swimming Coach</h5>
-          <p>Pelatih renang berlisensi D tingkat Kabupaten & Daerah</p>
-        </div>
-      </div>
-    </div>
   </div>
+
 </section>
 
 
-    <!-- Experience -->
-    <section id="experience">
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section skills-section">
+
   <div class="container">
-    <div class="row text-center mb-4">
-      <div class="col">
-        <h2 class="section-title">Experience</h2>
-      </div>
+
+    <div class="section-heading center-heading">
+
+      <p class="section-label">
+        MY SKILLS
+      </p>
+
+      <h2>
+        Kemampuan &amp; Keahlian
+      </h2>
+
+      <div class="heading-line"></div>
+
+      <p class="section-description">
+        Beberapa kemampuan yang saya gunakan dalam kegiatan
+        akademik, pekerjaan, organisasi, dan pengembangan diri.
+      </p>
+
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <ul class="list-group list-group-flush fs-5">
-          <li class="list-group-item">
-            ⚙️ <strong>Maintenance – PT KIA</strong> (Desember 2021 – Februari 2022)
-            <br />
-            <small>
-              Melakukan perawatan dan perbaikan mesin kelistrikan serta
-              mengoperasikan motor listrik 3 phase.
-            </small>
-          </li>
 
-          <li class="list-group-item">
-            🏊 <strong>Swimming Coach – Cikampek Swimming Club</strong>
-            (Januari 2022 – Sekarang)
-            <br />
-            <small>
-              Melatih teknik dasar hingga lanjutan dan membina atlet renang.
-            </small>
-          </li>
+    <div class="row g-4">
 
-          <li class="list-group-item">
-            🤽 <strong>Anggota Atlet Polo Air Karawang</strong>
-            (Februari 2022 – November 2024)
-          </li>
 
-          <li class="list-group-item">
-            🎤 <strong>Ketua Pelaksana Seminar Mental Health</strong>
-            <br />
-            <small>
-              Penyelenggara seminar oleh Cikampek Swimming Club (Maret 2025).
-            </small>
-          </li>
-        </ul>
+      <!-- Skill 1 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            <i class="bi bi-mic"></i>
+          </div>
+
+          <h3>
+            Public Speaking
+          </h3>
+
+          <p>
+            Terbiasa berbicara di depan umum dan terlibat
+            dalam kegiatan organisasi serta kepanitiaan.
+          </p>
+
+        </div>
+
       </div>
+
+
+      <!-- Skill 2 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+
+          <h3>
+            PHP &amp; Laravel
+          </h3>
+
+          <p>
+            Memahami pemrograman PHP dan pengembangan
+            aplikasi web menggunakan framework Laravel.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Skill 3 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            <i class="bi bi-file-earmark-spreadsheet"></i>
+          </div>
+
+          <h3>
+            Microsoft Office
+          </h3>
+
+          <p>
+            Dapat mengoperasikan Microsoft Word,
+            Excel, dan PowerPoint.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Skill 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            <i class="bi bi-water"></i>
+          </div>
+
+          <h3>
+            Swim Coach
+          </h3>
+
+          <p>
+            Pelatih renang berlisensi D dengan pengalaman
+            melatih teknik dasar hingga mahir.
+          </p>
+
+        </div>
+
+      </div>
+
+
     </div>
+
+
+    <!-- Technical Skills -->
+
+    <div class="technical-skills">
+
+      <h3>
+        Technical Skills
+      </h3>
+
+      <div class="skill-tags">
+
+        <span>
+          <i class="bi bi-filetype-php"></i>
+          PHP
+        </span>
+
+        <span>
+          <i class="bi bi-layers"></i>
+          Laravel
+        </span>
+
+        <span>
+          <i class="bi bi-database"></i>
+          MySQL
+        </span>
+
+        <span>
+          <i class="bi bi-shield-lock"></i>
+          RBAC
+        </span>
+
+        <span>
+          <i class="bi bi-bug"></i>
+          Black Box Testing
+        </span>
+
+        <span>
+          <i class="bi bi-router"></i>
+          Networking
+        </span>
+
+        <span>
+          <i class="bi bi-camera-video"></i>
+          CCTV
+        </span>
+
+        <span>
+          <i class="bi bi-server"></i>
+          Server
+        </span>
+
+      </div>
+
+    </div>
+
   </div>
+
 </section>
 
 
-    <!-- Contact -->
-    <section id="contact">
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section experience-section">
+
   <div class="container">
-    <div class="row text-center mb-4">
-      <div class="col">
-        <h2 class="section-title text-white">Contact Me</h2>
-        <a
-          href="cv/Alif_Ikrar_Prabu.vcf"
-          class="btn btn-outline-light w-100 mt-3 fw-bold"
-          download
-        >
-          📇 Save My Contact
+
+    <div class="section-heading center-heading">
+
+      <p class="section-label">
+        MY JOURNEY
+      </p>
+
+      <h2>
+        Pengalaman
+      </h2>
+
+      <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+      <!-- Experience 1 -->
+
+      <div class="timeline-item">
+
+        <div class="timeline-dot">
+          <i class="bi bi-tools"></i>
+        </div>
+
+        <div class="timeline-card">
+
+          <div class="timeline-date">
+            20 Desember 2021 – 16 Februari 2022
+          </div>
+
+          <h3>
+            Maintenance
+          </h3>
+
+          <h4>
+            PT KIA
+          </h4>
+
+          <ul>
+
+            <li>
+              Melakukan perawatan pada mesin agar tetap
+              berfungsi dengan baik.
+            </li>
+
+            <li>
+              Memperbaiki mesin pada bagian kelistrikan.
+            </li>
+
+            <li>
+              Mengoperasikan mesin motor listrik 3 phase.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <!-- Experience 2 -->
+
+      <div class="timeline-item featured">
+
+        <div class="timeline-dot">
+          <i class="bi bi-code-square"></i>
+        </div>
+
+        <div class="timeline-card">
+
+          <div class="timeline-date">
+            01 Oktober 2025 – 31 Maret 2026
+          </div>
+
+          <h3>
+            IT Operational Support &amp; Web Developer
+          </h3>
+
+          <h4>
+            PT Wise Tech Integra
+          </h4>
+
+          <ul>
+
+            <li>
+              Mengembangkan website Company Profile dan
+              Sistem Kalkulasi RAB Proyek berbasis
+              Laravel 12 dan MySQL.
+            </li>
+
+            <li>
+              Meningkatkan efisiensi penyusunan anggaran
+              proyek hingga 70% serta meminimalisir
+              risiko kesalahan hitung.
+            </li>
+
+            <li>
+              Menerapkan keamanan Role-Based Access Control
+              (RBAC) menggunakan Middleware Laravel untuk
+              perlindungan data keuangan.
+            </li>
+
+            <li>
+              Melakukan pengujian Black Box Testing untuk
+              memastikan fungsionalitas sistem berjalan optimal.
+            </li>
+
+            <li>
+              Melaksanakan Operational Support meliputi
+              instalasi perangkat keras seperti CCTV dan server,
+              serta konfigurasi jaringan di lapangan.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <!-- Experience 3 -->
+
+      <div class="timeline-item">
+
+        <div class="timeline-dot">
+          <i class="bi bi-water"></i>
+        </div>
+
+        <div class="timeline-card">
+
+          <div class="timeline-date">
+            20 Januari 2022 – Sekarang
+          </div>
+
+          <h3>
+            Swim Coach
+          </h3>
+
+          <h4>
+            Cikampek Swimming Club
+          </h4>
+
+          <ul>
+
+            <li>
+              Melatih teknik dasar berenang hingga mahir
+              dan menjadi seorang atlet profesional.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="section education-section">
+
+  <div class="container">
+
+    <div class="section-heading center-heading">
+
+      <p class="section-label">
+        EDUCATION
+      </p>
+
+      <h2>
+        Pendidikan
+      </h2>
+
+      <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="row g-4 justify-content-center">
+
+
+      <div class="col-md-6">
+
+        <div class="education-card">
+
+          <div class="education-icon">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+
+          <div>
+
+            <span class="education-date">
+              Juli 2017 – Juni 2020
+            </span>
+
+            <h3>
+              SMP Negeri 2 Kotabaru
+            </h3>
+
+            <p>
+              Pendidikan Sekolah Menengah Pertama
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-md-6">
+
+        <div class="education-card featured-education">
+
+          <div class="education-icon">
+            <i class="bi bi-mortarboard-fill"></i>
+          </div>
+
+          <div>
+
+            <span class="education-date">
+              Juli 2020 – Juni 2023
+            </span>
+
+            <h3>
+              SMK Negeri 1 Cikampek
+            </h3>
+
+            <p>
+              Teknik Instalasi Tenaga Listrik
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ORGANIZATION ================= -->
+
+<section class="section organization-section">
+
+  <div class="container">
+
+    <div class="section-heading center-heading">
+
+      <p class="section-label">
+        ORGANIZATION
+      </p>
+
+      <h2>
+        Organisasi
+      </h2>
+
+      <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="row g-4 justify-content-center">
+
+
+      <div class="col-md-6">
+
+        <div class="organization-card">
+
+          <div class="organization-icon">
+            <i class="bi bi-water"></i>
+          </div>
+
+          <div>
+
+            <span>
+              26 Februari 2022 – 10 November 2024
+            </span>
+
+            <h3>
+              Anggota Polo Air Karawang
+            </h3>
+
+            <p>
+              Menjadi anggota tim atlet polo air Karawang.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-md-6">
+
+        <div class="organization-card">
+
+          <div class="organization-icon">
+            <i class="bi bi-megaphone"></i>
+          </div>
+
+          <div>
+
+            <span>
+              16 Maret 2025
+            </span>
+
+            <h3>
+              Ketua Pelaksana Seminar Mental Health
+            </h3>
+
+            <p>
+              Menjadi ketua pelaksana seminar dari
+              Cikampek Swimming Club.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= OTHER ================= -->
+
+<section class="section other-section">
+
+  <div class="container">
+
+    <div class="row g-5">
+
+
+      <!-- Languages -->
+
+      <div class="col-lg-6">
+
+        <div class="other-card">
+
+          <div class="other-header">
+
+            <i class="bi bi-translate"></i>
+
+            <h3>
+              Languages
+            </h3>
+
+          </div>
+
+
+          <div class="language-item">
+
+            <div class="language-title">
+
+              <span>
+                Bahasa Indonesia
+              </span>
+
+              <strong>
+                Menguasai
+              </strong>
+
+            </div>
+
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 100%"
+              ></div>
+            </div>
+
+          </div>
+
+
+          <div class="language-item">
+
+            <div class="language-title">
+
+              <span>
+                Bahasa Inggris
+              </span>
+
+              <strong>
+                Mengerti
+              </strong>
+
+            </div>
+
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 65%"
+              ></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Hobby -->
+
+      <div class="col-lg-6">
+
+        <div class="other-card">
+
+          <div class="other-header">
+
+            <i class="bi bi-heart"></i>
+
+            <h3>
+              Hobbies
+            </h3>
+
+          </div>
+
+
+          <div class="hobby-list">
+
+            <div class="hobby-item">
+
+              <i class="bi bi-mountain"></i>
+
+              <span>
+                Mendaki Gunung
+              </span>
+
+            </div>
+
+
+            <div class="hobby-item">
+
+              <i class="bi bi-water"></i>
+
+              <span>
+                Berenang
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+  <div class="container">
+
+    <div class="contact-box">
+
+      <div class="contact-content">
+
+        <p class="section-label">
+          GET IN TOUCH
+        </p>
+
+        <h2>
+          Mari Terhubung
+        </h2>
+
+        <p>
+          Jika Anda ingin berdiskusi mengenai web development,
+          IT support, project, atau peluang kerja sama,
+          silakan hubungi saya melalui kontak berikut.
+        </p>
+
+
+        <div class="contact-buttons">
+
+          <a
+            href="mailto:prabu0397@gmail.com"
+            class="contact-button"
+          >
+            <i class="bi bi-envelope"></i>
+            <span>
+              <small>Email</small>
+              prabu0397@gmail.com
+            </span>
+          </a>
+
+
+          <a
+            href="https://wa.me/6283804665952?text=Halo%20Alif,%20saya%20tertarik%20dengan%20portfolio%20Anda%20dan%20ingin%20berdiskusi%20lebih%20lanjut."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-button"
+          >
+            <i class="bi bi-whatsapp"></i>
+            <span>
+              <small>WhatsApp</small>
+              083804665952
+            </span>
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/alif-i-7a11333b7/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-button"
+          >
+            <i class="bi bi-linkedin"></i>
+            <span>
+              <small>LinkedIn</small>
+              Alif Ikrar Prabu
+            </span>
+          </a>
+
+        </div>
+
+
+        <div class="contact-actions">
+
+          <a
+            href="cv/CV_Alif_Ikrar_Prabu.pdf"
+            class="btn btn-primary-custom"
+            download
+          >
+            <i class="bi bi-download"></i>
+            Download CV
+          </a>
+
+
+          <a
+            href="cv/Alif_Ikrar_Prabu.vcf"
+            class="btn btn-outline-custom"
+            download
+          >
+            <i class="bi bi-person-plus"></i>
+            Save Contact
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-content">
+
+      <div>
+
+        <a href="#home" class="footer-logo">
+          Alif<span>.</span>
         </a>
+
+        <p>
+          IT Support &amp; Web Developer
+        </p>
+
       </div>
+
+
+      <div class="footer-social">
+
+        <a
+          href="mailto:prabu0397@gmail.com"
+          title="Email"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/alif-i-7a11333b7/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="LinkedIn"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a
+          href="https://wa.me/6283804665952"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="WhatsApp"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a
+          href="https://instagram.com/alif_2903"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+
+      </div>
+
     </div>
+
+
+    <hr>
+
+
+    <div class="copyright">
+
+      <p>
+        © <span id="year"></span>
+        Alif Ikrar Prabu. All Rights Reserved.
+      </p>
+
+      <a href="#home">
+        Back to top
+        <i class="bi bi-arrow-up"></i>
+      </a>
+
+    </div>
+
   </div>
-</section>
-
-<footer class="text-center text-white py-4">
-<!-- Floating Social Media -->
-<div class="social-float">
-  <!-- WhatsApp -->
-  <a
-    href="https://wa.me/6283804665952?text=Halo%20Alif,%20saya%20tertarik%20dengan%20portfolio%20Anda%20dan%20ingin%20berdiskusi%20lebih%20lanjut."
-    target="_blank"
-    class="social-float-btn whatsapp"
-    title="Chat via WhatsApp"
-  >
-    <img src="img/wa.jpeg" alt="WhatsApp" />
-  </a>
-
-  <!-- Instagram -->
-  <a
-    href="https://instagram.com/alif_2903"
-    target="_blank"
-    class="social-float-btn instagram"
-    title="Visit Instagram"
-  >
-    <img src="img/ig.jpeg" alt="Instagram" />
-  </a>
-</div>
-
-<p class="mb-0">
-    © 2025 | Created by
-    <strong>Alif Ikrar Prabu</strong>
-</p>
-
 
 </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+<!-- ================= FLOATING SOCIAL ================= -->
+
+<div class="social-float">
+
+  <a
+    href="https://wa.me/6283804665952"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="social-float-btn whatsapp"
+    title="Chat via WhatsApp"
+  >
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+
+  <a
+    href="https://www.linkedin.com/in/alif-i-7a11333b7/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="social-float-btn linkedin"
+    title="LinkedIn"
+  >
+    <i class="bi bi-linkedin"></i>
+  </a>
+
+</div>
+
+
+<!-- Bootstrap JS -->
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+></script>
+
+<!-- Custom JS -->
+
+<script src="script.js"></script>
+
+</body>
 </html>
